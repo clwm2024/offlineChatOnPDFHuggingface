@@ -1,0 +1,17 @@
+name: trainModelElectra
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+      - transformers
+      - datasets
+      - evaluate
+      - torch
+      - torchvision
+      - torchaudio
